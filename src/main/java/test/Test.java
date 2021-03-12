@@ -4,28 +4,36 @@ import java.util.ArrayList;
 import java.util.List;
 
 import metier.Client;
+import metier.Console;
 import metier.Jeu;
 
 public class Test {
 
 	public static void main(String[] args) {
-		//1: création d'un client
-		Client cl1 = new Client();
-		cl1.setNom("ABID");
-		cl1.setPrenom("Jordan");
+		List <Console> consoles = new ArrayList();
+		List <Console> consoles2 = new ArrayList();
+		List <Console> consoles3 = new ArrayList();
 		
-		//2: créationd'une liste de jeux
-		Jeu j1 = new Jeu("Les fous du jeux", null);
-		Jeu j2 = new Jeu("Hop!", null);
-		Jeu j3 = new Jeu("Les Zombies", null);
-		ArrayList<Jeu> listeJeu = new ArrayList<Jeu>();
-		listeJeu.add(j1);
-		listeJeu.add(j2);
-		listeJeu.add(j3);
+		Console c1 =new Console("SuperNintendo");
+		Console c2 =new Console("nintendoSwitch");
+		Console c3 =new Console("ps5");
+		Console c4 =new Console("gameCube");
+		consoles.add(c1);
+		consoles.add(c2);
+		consoles.add(c3);
 		
-		//3:affectation de la liste de jeux au client
-		cl1.setListOfGames(listeJeu);
+		consoles2.add(c1);
+		consoles2.add(c4);
+		consoles3.add(c3);
+		
+		for(Console c :consoles) {System.out.println(c);}
+		
+			Jeu jeu1=new Jeu("WordlOfWarcraft",consoles);
+			Jeu jeu2=new Jeu("Super Mario",consoles2);
+			Jeu jeu3=new Jeu("Fifa21",consoles3);
+			Jeu jeu4=new Jeu("Fortnite",consoles3);
+			Jeu jeu5=new Jeu("LegendOfZelda",consoles);
 
-	}
 
+}
 }
