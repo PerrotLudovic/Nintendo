@@ -6,9 +6,6 @@ public class Console {
 	private double prix;
 	private String dateSortie;
 
-	public Console() {
-		
-	}
 
 	public Console(String nom, double prix, String dateSortie) {
 		this.nom = nom;

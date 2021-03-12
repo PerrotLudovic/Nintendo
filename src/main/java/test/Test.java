@@ -14,10 +14,10 @@ public class Test {
 		List <Console> consoles2 = new ArrayList();
 		List <Console> consoles3 = new ArrayList();
 		
-		Console c1 =new Console("SuperNintendo");
-		Console c2 =new Console("nintendoSwitch");
-		Console c3 =new Console("ps5");
-		Console c4 =new Console("gameCube");
+		Console c1 =new Console("SuperNintendo",120,null);
+		Console c2 =new Console("nintendoSwitch",120,null);
+		Console c3 =new Console("ps5",120,null);
+		Console c4 =new Console("gameCube",120,null);
 		consoles.add(c1);
 		consoles.add(c2);
 		consoles.add(c3);
