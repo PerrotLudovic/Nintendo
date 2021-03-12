@@ -1,5 +1,5 @@
-/target/
-<<<<<<< HEAD
-=======
-/bin/
->>>>>>> develop
+bin/
+target/
+.project
+.settings
+.classpath
