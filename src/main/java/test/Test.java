@@ -18,7 +18,7 @@ public class Test {
 		Jeu j1 = new Jeu("Les fous du jeux", null);
 		Jeu j2 = new Jeu("Hop!", null);
 		Jeu j3 = new Jeu("Les Zombies", null);
-		List<Jeu> listeJeu = new ArrayList<Jeu>();
+		ArrayList<Jeu> listeJeu = new ArrayList<Jeu>();
 		listeJeu.add(j1);
 		listeJeu.add(j2);
 		listeJeu.add(j3);
