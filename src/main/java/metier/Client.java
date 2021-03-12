@@ -4,14 +4,14 @@ import java.util.ArrayList;
 
 public class Client {
 	private String nom, prenom ;
-	private ArrayList<Jeu> listOfGames = new ArrayList<Jeu>();
+	private ArrayList<Achat> listOfGames = new ArrayList<Achat>();
 	
 	public Client()
 	{
 		
 	}
 	
-	public Client(String nom, String prenom, ArrayList<Jeu> listOfGames) {
+	public Client(String nom, String prenom, ArrayList<Achat> listOfGames) {
 		this.nom = nom;
 		this.prenom = prenom;
 		this.listOfGames = listOfGames;
@@ -28,10 +28,12 @@ public class Client {
 	public void setPrenom(String prenom) {
 		this.prenom = prenom;
 	}
-	public ArrayList<Jeu> getListOfGames() {
+
+	public ArrayList<Achat> getListOfGames() {
 		return listOfGames;
 	}
-	public void setListOfGames(ArrayList<Jeu> listOfGames) {
+
+	public void setListOfGames(ArrayList<Achat> listOfGames) {
 		this.listOfGames = listOfGames;
 	}
 	
