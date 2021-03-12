@@ -1,5 +1,2 @@
-/target/
-<<<<<<< HEAD
-=======
-/bin/
->>>>>>> develop
+bin/
+target/
